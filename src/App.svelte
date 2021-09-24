@@ -1,6 +1,7 @@
 <script lang="ts">
-  export let name: string;
+  import "carbon-components-svelte/css/g100.css";
   import { Accordion, AccordionItem } from "carbon-components-svelte";
+  export let name: string;
 </script>
 
 <main>
