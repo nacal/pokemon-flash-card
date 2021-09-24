@@ -1,5 +1,6 @@
 <script lang="ts">
   export let name: string;
+  import { Accordion, AccordionItem } from "carbon-components-svelte";
 </script>
 
 <main>
@@ -8,6 +9,11 @@
     Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
     how to build Svelte apps.
   </p>
+  <Accordion>
+    <AccordionItem title="Section 1" open>Content 1</AccordionItem>
+    <AccordionItem title="Section 2">Content 2</AccordionItem>
+    <AccordionItem title="Section 3">Content 3</AccordionItem>
+  </Accordion>
 </main>
 
 <style>
