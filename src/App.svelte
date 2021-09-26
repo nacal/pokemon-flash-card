@@ -1,8 +1,7 @@
 <script lang="ts">
   import { Router, Route } from "svelte-routing";
   import "carbon-components-svelte/css/g90.css";
-  import Home from "./Home.svelte";
-  import Lesson from "./Lesson.svelte";
+  import { Home, Lesson } from "./pages";
 </script>
 
 <Router>
